@@ -1,3 +1,8 @@
+*{
+     margin: opx;
+     padding: 0px;
+}
+
 body{
     background: lightblue;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -11,8 +16,28 @@ body{
 
 header{
     background: red;
-    height: 60px;
+    height: 10%;
     width: 100%;
-    border-bottom: 2px solid black;
+    border-bottom: 1px dashed yellowgreen;
+    text-align: center;
+    line-height: 80%;
+    color: white;
+
 }
 
+nav{
+    background: gray;
+    height: 50px;
+    border: 1px solid black;
+}
+
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 6px;
+    line-height: 25px;
+}
+
+.anularestilos{
+    clear: both;
+}
