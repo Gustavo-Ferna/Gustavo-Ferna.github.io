@@ -1,0 +1,18 @@
+body{
+    background: lightblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#contenedor{
+    width: 1300px;
+    margin: 0pt auto;
+    border: 1px solid blue; 
+}
+
+header{
+    background: red;
+    height: 60px;
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+
