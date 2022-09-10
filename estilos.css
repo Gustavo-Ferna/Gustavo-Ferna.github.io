@@ -1,5 +1,5 @@
 *{
-     margin: opx;
+     margin: 0px;
      padding: 0px;
 }
 
@@ -16,28 +16,75 @@ body{
 
 header{
     background: red;
-    height: 10%;
-    width: 100%;
-    border-bottom: 1px dashed yellowgreen;
-    text-align: center;
-    line-height: 80%;
+    height: 60px;
+    width: calc(100%-4px);
+    text-align: center;    
+    line-height: 60px;
     color: white;
+    border: 1px dashed yellowgreen;
 
 }
 
 nav{
     background: gray;
     height: 50px;
-    border: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 nav ul li{
     float: left;
     list-style: none;
-    margin: 6px;
-    line-height: 25px;
+    margin: 10px;
+    line-height: 30px;
 }
 
 .anularestilos{
     clear: both;
 }
+
+.anularestilos{
+    clear: both;
+}
+
+#contenido{
+    float: left;
+    width: 1020px;
+    min-height: 400px;
+    background: green;
+    padding: 40px;
+}
+
+#articulo{
+    color: white;
+    margin-top: 15px;
+    padding-bottom: 10pk;
+    border-bottom: 1px solid #eee;
+}
+
+.articulo:first-child{
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+}
+
+aside{
+    float: left;
+    width: 180px;
+    background: orange;
+    min-height: 460px;
+    padding: 10px;
+    padding-top: 20;
+}
+
+.articulo h2{
+    font-size: 25px;
+}
+
+footer{
+    background: #000f;
+    color: white;
+    text-align: right;
+    margin-right: 20px;
+    height: 30px;
+    line-height: 50px;
+ }
+
