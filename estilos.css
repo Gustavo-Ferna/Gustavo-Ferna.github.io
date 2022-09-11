@@ -11,30 +11,33 @@ body{
 }
 
 #contenedor{
+    height: 580px;
     width: 1060px;
     margin: 0pt auto;
 }
 
 header{
-    height: 50px;
+
+    height: 60px;
     width: 1060px;
-    line-height: 100px;
-    margin-left: 100px;
-    color: rgb(46, 80, 194);
+    line-height: 60px;
+    text-align: center;
+    color: rgb(194, 46, 46);
 }
 
 nav{
-    height: 50px;
-    border-bottom: 2px solid rgb(0, 0, 0);
+
+    border-top: 2px solid rgb(0, 0, 0);
     text-align:right
 
 }
 
 nav ul li{
     float: left;
+    font-size:small;
+    font-optical-sizing: auto;
     list-style: none;
-    margin: 20px;
-    line-height: 40px;
+    margin: 10px;
 }
 
 .anularestilos{
@@ -42,25 +45,18 @@ nav ul li{
 }
  
 #contenido{
-    float: left;
-    width: 1000px;
-    min-height: 430px;
+    float:none;
+    width: 1020px;
+    min-height: 420px;
     padding: 20px;
     margin-top: 2px;
     text-align: center;
-    border: 1pk;
-    border-color: blue;
 }
 
-#articulo{
-    color: white;
-    margin-top: 80px;
-    padding-top: 80pk;
-    border-bottom: 2px solid #eee;
-}
+
 
 .articulo:first-child{
-    padding-top: 10px;
+    padding-top: 30px;
     border-top: 2px solid #eee;
 }
 p{
@@ -69,7 +65,8 @@ p{
 }
 
 .articulo h2{
-    padding-top: 40px;
+    padding-top: 50px;
+    padding-bottom: 20px;
     font-size: 20px;
 }
 
