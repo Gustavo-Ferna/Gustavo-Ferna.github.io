@@ -1,0 +1,4 @@
+En este archivo se detallan las acciones en 
+las ramas para porder COMMITiar
+
+
