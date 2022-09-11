@@ -4,29 +4,27 @@
 }
 
 body{
-    background: lightblue;
+    background: url("imagen1.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 90vh;
     font-family:Arial, Helvetica, sans-serif
 }
 
 #contenedor{
-    width: 1300px;
+    width: 1400px;
     margin: 0pt auto;
-    border: 1px solid blue; 
 }
 
 header{
-    background: red;
-    height: 60px;
-    width: calc(100%-4px);
+    height: 100px;
+    width: 90%;
     text-align: center;    
-    line-height: 60px;
-    color: white;
-    border: 1px dashed yellowgreen;
-
+    line-height: 120px;
+    color: rgb(46, 80, 194);
 }
 
 nav{
-    background: gray;
     height: 50px;
     border-bottom: 2px solid black;
 }
@@ -46,7 +44,6 @@ nav ul li{
     float: left;
     width: 1020px;
     min-height: 400px;
-    background: green;
     padding: 40px;
 }
 
@@ -62,17 +59,8 @@ nav ul li{
     border-top: 1px solid #eee;
 }
 
-aside{
-    float: left;
-    width: 180px;
-    background: orange;
-    min-height: 460px;
-    padding: 10px;
-    padding-top: 20;
-}
-
 .articulo h2{
-    font-size: 25px;
+    font-size: 20px;
 }
 
 footer{
