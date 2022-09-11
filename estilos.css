@@ -5,35 +5,37 @@
 
 body{
     background: url("imagen1.jpg");
-    background-size: cover;
-    background-position: center center;
-    height: 90vh;
+    background-size:cover;
+    background-position:center;
     font-family:Arial, Helvetica, sans-serif
 }
 
 #contenedor{
-    width: 1400px;
+    width: 1060px;
     margin: 0pt auto;
 }
 
 header{
-    height: 100px;
-    width: 90%;
-    text-align: center;    
-    line-height: 120px;
+    height: 50px;
+    width: 1060px;
+    /*text-align: center;*/    
+    line-height: 100px;
+    margin-left: 100px;
     color: rgb(46, 80, 194);
 }
 
 nav{
     height: 50px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    text-align:right
+
 }
 
 nav ul li{
     float: left;
     list-style: none;
-    margin: 10px;
-    line-height: 30px;
+    margin: 20px;
+    line-height: 40px;
 }
 
 .anularestilos{
@@ -42,33 +44,39 @@ nav ul li{
  
 #contenido{
     float: left;
-    width: 1020px;
-    min-height: 400px;
-    padding: 40px;
+    width: 1000px;
+    min-height: 430px;
+    padding: 20px;
+    margin-top: 2px;
+    text-align: center;
+    border: 1pk;
+    border-color: blue;
 }
 
 #articulo{
     color: white;
-    margin-top: 15px;
-    padding-bottom: 10pk;
-    border-bottom: 1px solid #eee;
+    margin-top: 80px;
+    padding-top: 80pk;
+    border-bottom: 2px solid #eee;
 }
 
 .articulo:first-child{
     padding-top: 10px;
-    border-top: 1px solid #eee;
+    border-top: 2px solid #eee;
+}
+p{
+    color: rgb(108, 29, 182);
+    font-style:oblique;
 }
 
 .articulo h2{
+    padding-top: 40px;
     font-size: 20px;
 }
 
 footer{
-    background: #000f;
-    color: white;
+    color: rgb(232, 235, 241);
     text-align: right;
-    margin-right: 20px;
-    height: 30px;
-    line-height: 50px;
- }
+    margin-right: 100px;
+}
 
