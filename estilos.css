@@ -18,18 +18,16 @@ body{
 
 header{
 
-    height: 60px;
+    height: 80px;
     width: 1060px;
-    line-height: 60px;
+    line-height: 80px;
     text-align: center;
-    color: rgb(194, 46, 46);
+    color: #550166;
 }
 
 nav{
-
     border-top: 2px solid rgb(0, 0, 0);
-    text-align:right
-
+    height: 40px;
 }
 
 nav ul li{
@@ -57,7 +55,7 @@ nav ul li{
     border-top: 2px solid #eee;
 }
 p{
-    color: rgb(108, 29, 182);
+    color: rgb(90, 19, 156);
     font-style:oblique;
 }
 
@@ -68,8 +66,10 @@ p{
 }
 
 footer{
-    color: rgb(232, 235, 241);
+    color: #550166;
     text-align: right;
-    margin-right: 100px;
+    margin-right: 10px;
+    border-top: 2px solid #eee;
+
 }
 
