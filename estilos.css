@@ -4,12 +4,13 @@
 }
 
 body{
-
+    background: url("imagenbody.jpg");
+    background-size:cover;
+    background-position:center;  
     font-family:Arial, Helvetica, sans-serif
 }
 
 #contenedor{
-   
     height: 1900px;
     width: 1060px;
     margin: 0pt auto;
@@ -21,7 +22,7 @@ header{
     width: 1060px;
     line-height: 80px;
     text-align: center;
-    color: #550166;
+    color: yellow;
 }
 
 nav{
@@ -51,44 +52,45 @@ nav ul li{
 }
 
 p{
-    color: rgb(90, 19, 156);
+    color: blue;
     font-style:oblique;
     margin-left: 100px;
     margin-right: 100px;
 }
 
 
-#espacio{
-
-    float:none;
-    width: 1020px;
-    min-height: 50px;
-
-}
+#espacio{float:none; width: 1020px; min-height: 70px;}
 
 #mistrabajos{
-    background: url("imagen2.jpg");
-    background-size:cover;
-    background-position:center;  
+
     float:none;
     width: 1020px;
     min-height: 520px;
-    padding: 20px;
+    padding: 10px;
     margin-top: 2px;
     text-align: center;
 }
-
+.ahorcado li{
+    position: absolute;
+    right:300px;
+}
+.portfolio li{
+    position: absolute;
+    right:300px;
+}
 
 .ahorcado h2{
-    color: rgb(255, 255, 255);
-    margin-top: 40px;
+    color: rgb(197, 12, 12);
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
-.ahorcado p{color: rgb(75, 171, 174);}
+.ahorcado p{color: blue;}
 .portfolio h2{
-    color: rgb(255, 255, 255);
-    margin-top: 20px;
+    color: rgb(197, 12, 12);
+    margin-top: 40px;
+    margin-bottom: 10px;
 }
-.portfolio p{color: rgb(75, 171, 174);}
+.portfolio p{color: blue;}
 
 .articulo h2{
     color: aqua;
@@ -97,8 +99,50 @@ p{
     font-size: 20px;
 }
 
+#espacio{float:none; width: 1020px; min-height: 140px;}
+
+/* Formulario de Contacto */
+
+.contact_form{width: 640px; height: auto; margin: 40px auto; border-radius: 10px; padding-top: 30px; 
+    padding-bottom: 20px; background-color: #fbfbfb; padding-left: 30px;}
+  
+  
+  input{background-color: #fbfbfb; width: 408px; height: 40px; border-radius: 5px; border-style: solid; border-width: 1px; 
+    border-color: #ab4493; margin-top: 5px; padding-left: 5px; margin-bottom: 10px;}
+  
+  
+  textarea{background-color: #fbfbfb; width: 405px; height: 100px; border-radius: 5px; border-style: solid; border-width: 1px;
+    border-color: #ab4493; margin-top: 5px; padding-left: 5px; margin-bottom: 10px; padding-top: 10px;}
+  
+  label{display: block; float: center;}
+    
+  button{height: 35px; width: 250px; margin-bottom: 10px; margin-top: 1px; text-transform: uppercase;
+    background-color: #ab4493; border-color: #c36eafd5; border-style:groove; border-radius: 10px; 
+    margin-left: 260px;cursor: pointer;}
+    
+  button p{color: blue;margin-left: 350;}
+    
+  span{color: #ab4493;}
+    
+  .aviso{font-size: 13px; color: #0e0e0e;text-align: center;}
+    
+  h1{font-size: 39px; text-align: center; padding-bottom: 20px; color: #ab4493;}
+    
+  h2{font-size: 16px; padding-bottom: 30px; color: #0e0e0e;text-align: center;}
+    
+  p{font-size: 14px; color: #0e0e0e;}
+    
+  ::-webkit-input-placeholder {color: #a8a8a8;}
+    
+  ::-webkit-textarea-placeholder {color: #a8a8a8;}
+    
+  .formulario input:focus{outline:0; border: 1px solid #97d848;}
+    
+  .formulario textarea:focus{outline:0; border: 1px solid #97d848;}
+  
+
 footer{
-    color: #550166;
+    color: blue;
     text-align: right;
     margin-right: 10px;
     margin-top: 20px;

@@ -22,8 +22,8 @@
             <nav>
                 <ul>
                     <li><a href="index.html">Inicio</a></li>
-                    <li><a href="index.html">Mis Trabajos</a></li>
-                    <li><a href="https://github.com/Gustavo-Ferna?tab=repositories">Contacto</a></li>
+                    <li><a href="#mistrabajos">Mis Trabajos</a></li>
+                    <li><a href="index.html#contacto">Contacto</a></li>
                 </ul>
             </nav>
             
@@ -59,7 +59,7 @@
                     <p>.</p>
                     <p>Trabajo Final de la materia Lab de Computacion 1, en Tecnicatura de Programacion - U.T.N.</p>
                     <p>Primeros pasos en lenguaje Python</p>
-                    <img src="ahorcado.jpg" width="150" height="120" />
+                    <img src="ahorcado.png " width="150" height="120" />
                     <li><a href="https://github.com/Gustavo-Ferna/T-P-Final--Ahorcado.git">El Ahorcado (repositorio)</a></li>
                 </article>
                 
@@ -73,14 +73,56 @@
                 </article>
             </section>
 
+            <section id="espacio">
+
+              <!-- formulario de contacto  -->  
             </section>
             <section id="contacto">
-                
+                    <div class="contact_form">
+                        <div class="formulario">      
+                        <h2>CONTACTO</h2>
+                            <form action="submeter-formulario.php" method="post">       
 
+                                    <p>
+                                    <label for="nombre" class="colocar_nombre">Nombre
+                                        <span class="obligatorio">*</span>
+                                    </label>
+                                        <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                                    </p>
+                                
+                                    <p>
+                                    <label for="email" class="colocar_email">Email
+                                        <span class="obligatorio">*</span>
+                                    </label>
+                                        <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                                    </p>
+                                
+                                    <p>
+                                    <label for="telefone" class="colocar_telefono">Teléfono
+                                    </label>
+                                        <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                                    </p>    
+                                
+                                    <p>
+                                    <label for="mensaje" class="colocar_mensaje">Mensaje
+                                        <span class="obligatorio">*</span>
+                                    </label>                     
+                                                        <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                                                    </p>                    
+                                
+                                    <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+
+                                    <p class="aviso">
+                                    <span class="obligatorio"> * </span>los campos son obligatorios.
+                                    </p>          
+                                
+                            </form>
+                        </div>  
+                    </div>
             </section>
 
             <footer>
-                GF DESARROLLADOR - T°P°1 Laboratorio II - UTN 2022
+                GFdeveloper- T°P°1 Laboratorio II - UTN 2022
             </footer> 
             
 
