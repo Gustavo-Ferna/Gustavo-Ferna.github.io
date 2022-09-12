@@ -51,8 +51,15 @@ nav ul li{
     text-align: center;
 }
 
-p{
+.articulo h2{
     color: blue;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.articulo p{
+    color: blueviolet;
     font-style:oblique;
     margin-left: 100px;
     margin-right: 100px;
@@ -73,10 +80,12 @@ p{
 .ahorcado li{
     position: absolute;
     right:300px;
+    list-style: none;
 }
 .portfolio li{
     position: absolute;
     right:300px;
+    list-style: none;
 }
 
 .ahorcado h2{
@@ -92,26 +101,19 @@ p{
 }
 .portfolio p{color: blue;}
 
-.articulo h2{
-    color: aqua;
-    padding-top: 50px;
-    padding-bottom: 20px;
-    font-size: 20px;
-}
-
 #espacio{float:none; width: 1020px; min-height: 140px;}
 
 /* Formulario de Contacto */
 
-.contact_form{width: 640px; height: auto; margin: 40px auto; border-radius: 10px; padding-top: 30px; 
+.contact_form{width: 540px; height: auto; margin: 40px auto; border-radius: 10px; padding-top: 30px; 
     padding-bottom: 20px; background-color: #fbfbfb; padding-left: 30px;}
   
   
-  input{background-color: #fbfbfb; width: 408px; height: 40px; border-radius: 5px; border-style: solid; border-width: 1px; 
+  input{background-color: #fbfbfb; width: 500px; height: 40px; border-radius: 5px; border-style: solid; border-width: 1px; 
     border-color: #ab4493; margin-top: 5px; padding-left: 5px; margin-bottom: 10px;}
   
   
-  textarea{background-color: #fbfbfb; width: 405px; height: 100px; border-radius: 5px; border-style: solid; border-width: 1px;
+  textarea{background-color: #fbfbfb; width: 500px; height: 100px; border-radius: 5px; border-style: solid; border-width: 1px;
     border-color: #ab4493; margin-top: 5px; padding-left: 5px; margin-bottom: 10px; padding-top: 10px;}
   
   label{display: block; float: center;}
@@ -120,7 +122,7 @@ p{
     background-color: #ab4493; border-color: #c36eafd5; border-style:groove; border-radius: 10px; 
     margin-left: 260px;cursor: pointer;}
     
-  button p{color: blue;margin-left: 350;}
+  button p{color: rgb(246, 255, 0);margin-left: 350;}
     
   span{color: #ab4493;}
     
@@ -142,7 +144,7 @@ p{
   
 
 footer{
-    color: blue;
+    color: wheat;
     text-align: right;
     margin-right: 10px;
     margin-top: 20px;
